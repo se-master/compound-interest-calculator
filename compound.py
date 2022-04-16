@@ -27,7 +27,7 @@ def Calculate(interest, savings, contributing, duration):
 if __name__ == "__main__":
 	interest 		= int(input("Enter the yearly interest % : ")) /100 + 1
 	savings 		= int(input("Enter your yearly contribution : "))
-	contributing	= int(input("Enter the amount of years contributing : "))
+	contributing		= int(input("Enter the amount of years contributing : "))
 	duration		= int(input("Enter the duration : "))
 
 	value = Calculate(interest, savings, contributing, duration)
